@@ -1,0 +1,19 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+markitdown==0.0.1a2
+langchain==0.3.14
+langchain-openai==0.3.0
+langchain-chroma==0.2.2
+langchain-community==0.3.14
+chromadb==0.6.3
+tiktoken==0.8.0
+httpx==0.28.1
+rapidocr-onnxruntime
+Pillow
+# ---- Hybrid retrieval & reranking ----
+rank_bm25
+jieba
+# Cross-encoder reranker via ONNX (no torch — macOS Intel has no torch wheel for Py3.13)
+transformers
+onnxruntime

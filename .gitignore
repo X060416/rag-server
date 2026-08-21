@@ -1,0 +1,9 @@
+venv/
+models/
+__pycache__/
+*.pyc
+chroma_db/metadata/model_connections.json
+chroma_db/
+
+# user data: raw uploaded documents (kept local only)
+file_store/
